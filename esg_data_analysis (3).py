@@ -4,7 +4,7 @@ import pandas as pd
 
 # Streamlit page config
 st.set_page_config(page_title="ESG Dashboard", layout="wide")
-st.title("Environmental & Financial Insights Dashboard")
+st.title("Environmental Data Analysis Dashboard")
 
 # Load data
 df = pd.read_csv('dataset.csv')
